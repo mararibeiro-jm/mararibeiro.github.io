@@ -1,0 +1,59 @@
+/*Comentario
+meu primeiro arquivo css*/
+
+p {
+	color: red;
+	background-color: #860015;
+	font-size: 30px;
+	font-family: "Courier New";
+}
+
+body {
+	background-color:#000000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color:#8ed1dc;
+	height: 80px;
+	/*margin: 10px;*/
+	padding: 20px;
+}
+/*IDS - o id é representado pelo simbolo #, seguido do nome atribuido */
+#div_principal {
+	background-color: red;
+	min-height: 200px; /*min-height é um comando de altura que se ajusta conforme o conteudo vai crescendo*/
+	width: 60%; /*width é largura, enquanto height é altura*/
+	float: left; /*O float fixa os campos apenas na direita ou esquerda*/
+}
+
+h1{
+	color: #ffffff;
+}
+
+#div_direita {
+	background-color: blue;
+	min-height: 200px;
+	width: 40%;
+	float: right;
+}
+
+footer {
+	background-color: #8ed1dc;
+	height: 50px;
+	clear: both;
+	text-align: center;
+	padding: 10px /*0px 0px 5px*/; /* As 4 propriedades do padding são contadas em sentido horário, 10px são o topo, 0px são a direita e embaixo e, 5px a esquerda*/
+	
+}
+/* CLASS - a class é representada por um ponto (.) seguido do nome atribuido */
+.conteiner{
+	width: 900px;
+	margin: auto;
+
+}
